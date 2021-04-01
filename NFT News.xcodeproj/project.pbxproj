@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0031E7A2623EAD15C0696C7C /* Pods_NFT_NewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48CCB0F0448DFB714B1ADB8 /* Pods_NFT_NewsTests.framework */; };
+		5728C3742616512700BD135D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5728C3732616512700BD135D /* NetworkManager.swift */; };
+		5728C3792616514200BD135D /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5728C3782616514200BD135D /* News.swift */; };
 		578C97812614049900B4743C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C97802614049900B4743C /* AppDelegate.swift */; };
 		578C97832614049900B4743C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C97822614049900B4743C /* SceneDelegate.swift */; };
 		578C97852614049900B4743C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C97842614049900B4743C /* ViewController.swift */; };
@@ -15,6 +18,8 @@
 		578C978D2614049900B4743C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578C978B2614049900B4743C /* LaunchScreen.storyboard */; };
 		578C97982614049A00B4743C /* NFT_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C97972614049A00B4743C /* NFT_NewsTests.swift */; };
 		578C97A32614049A00B4743C /* NFT_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C97A22614049A00B4743C /* NFT_NewsUITests.swift */; };
+		A6A2576DF17E97E492037C2D /* Pods_NFT_News.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AFCC05DEBB38EA62690064 /* Pods_NFT_News.framework */; };
+		B507A758D1A678DE63B9E28E /* Pods_NFT_News_NFT_NewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392EFACB3C96E368AD360D2 /* Pods_NFT_News_NFT_NewsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05AFCC05DEBB38EA62690064 /* Pods_NFT_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFT_News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		317B1555B813F65F1B22C33D /* Pods-NFT News-NFT NewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT News-NFT NewsUITests.release.xcconfig"; path = "Target Support Files/Pods-NFT News-NFT NewsUITests/Pods-NFT News-NFT NewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5728C3732616512700BD135D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5728C3782616514200BD135D /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		578C977D2614049900B4743C /* NFT News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFT News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		578C97802614049900B4743C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578C97822614049900B4743C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		578C979E2614049A00B4743C /* NFT NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NFT NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		578C97A22614049A00B4743C /* NFT_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFT_NewsUITests.swift; sourceTree = "<group>"; };
 		578C97A42614049A00B4743C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4D366E71C2A9C94778F719 /* Pods-NFT News-NFT NewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT News-NFT NewsUITests.debug.xcconfig"; path = "Target Support Files/Pods-NFT News-NFT NewsUITests/Pods-NFT News-NFT NewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8392EFACB3C96E368AD360D2 /* Pods_NFT_News_NFT_NewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFT_News_NFT_NewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8E4CF97D5D11668D5AC77A /* Pods-NFT News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT News.debug.xcconfig"; path = "Target Support Files/Pods-NFT News/Pods-NFT News.debug.xcconfig"; sourceTree = "<group>"; };
+		9A0CB921888592B0CBE2D44F /* Pods-NFT NewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT NewsTests.release.xcconfig"; path = "Target Support Files/Pods-NFT NewsTests/Pods-NFT NewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2E41B9F2303C87822DBF92B /* Pods-NFT NewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT NewsTests.debug.xcconfig"; path = "Target Support Files/Pods-NFT NewsTests/Pods-NFT NewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C878F25AF5DD743438A5EC99 /* Pods-NFT News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT News.release.xcconfig"; path = "Target Support Files/Pods-NFT News/Pods-NFT News.release.xcconfig"; sourceTree = "<group>"; };
+		F48CCB0F0448DFB714B1ADB8 /* Pods_NFT_NewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFT_NewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A2576DF17E97E492037C2D /* Pods_NFT_News.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0031E7A2623EAD15C0696C7C /* Pods_NFT_NewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B507A758D1A678DE63B9E28E /* Pods_NFT_News_NFT_NewsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5728C37D2616569100BD135D /* Networking Layer */ = {
+			isa = PBXGroup;
+			children = (
+				5728C3782616514200BD135D /* News.swift */,
+				5728C3732616512700BD135D /* NetworkManager.swift */,
+			);
+			path = "Networking Layer";
+			sourceTree = "<group>";
+		};
 		578C97742614049900B4743C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				578C97962614049A00B4743C /* NFT NewsTests */,
 				578C97A12614049A00B4743C /* NFT NewsUITests */,
 				578C977E2614049900B4743C /* Products */,
+				B765167C232774E9632A2D36 /* Pods */,
+				9DED3F2D0C09ABB8A6F75CC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +132,7 @@
 				578C97802614049900B4743C /* AppDelegate.swift */,
 				578C97822614049900B4743C /* SceneDelegate.swift */,
 				578C97842614049900B4743C /* ViewController.swift */,
+				5728C37D2616569100BD135D /* Networking Layer */,
 				578C97862614049900B4743C /* Main.storyboard */,
 				578C97892614049900B4743C /* Assets.xcassets */,
 				578C978B2614049900B4743C /* LaunchScreen.storyboard */,
@@ -128,6 +159,29 @@
 			path = "NFT NewsUITests";
 			sourceTree = "<group>";
 		};
+		9DED3F2D0C09ABB8A6F75CC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05AFCC05DEBB38EA62690064 /* Pods_NFT_News.framework */,
+				8392EFACB3C96E368AD360D2 /* Pods_NFT_News_NFT_NewsUITests.framework */,
+				F48CCB0F0448DFB714B1ADB8 /* Pods_NFT_NewsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B765167C232774E9632A2D36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F8E4CF97D5D11668D5AC77A /* Pods-NFT News.debug.xcconfig */,
+				C878F25AF5DD743438A5EC99 /* Pods-NFT News.release.xcconfig */,
+				7E4D366E71C2A9C94778F719 /* Pods-NFT News-NFT NewsUITests.debug.xcconfig */,
+				317B1555B813F65F1B22C33D /* Pods-NFT News-NFT NewsUITests.release.xcconfig */,
+				C2E41B9F2303C87822DBF92B /* Pods-NFT NewsTests.debug.xcconfig */,
+				9A0CB921888592B0CBE2D44F /* Pods-NFT NewsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 578C97A72614049A00B4743C /* Build configuration list for PBXNativeTarget "NFT News" */;
 			buildPhases = (
+				651E4C0ED2589758C078537B /* [CP] Check Pods Manifest.lock */,
 				578C97792614049900B4743C /* Sources */,
 				578C977A2614049900B4743C /* Frameworks */,
 				578C977B2614049900B4743C /* Resources */,
+				A2346401138BD7F9238B326F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 578C97AA2614049A00B4743C /* Build configuration list for PBXNativeTarget "NFT NewsTests" */;
 			buildPhases = (
+				440126C71AD701290355B4D2 /* [CP] Check Pods Manifest.lock */,
 				578C978F2614049A00B4743C /* Sources */,
 				578C97902614049A00B4743C /* Frameworks */,
 				578C97912614049A00B4743C /* Resources */,
@@ -170,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 578C97AD2614049A00B4743C /* Build configuration list for PBXNativeTarget "NFT NewsUITests" */;
 			buildPhases = (
+				B38397C2435AC2B539A84518 /* [CP] Check Pods Manifest.lock */,
 				578C979A2614049A00B4743C /* Sources */,
 				578C979B2614049A00B4743C /* Frameworks */,
 				578C979C2614049A00B4743C /* Resources */,
+				598D9CFCBE048ABE5CC5AC02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +312,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		440126C71AD701290355B4D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NFT NewsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		598D9CFCBE048ABE5CC5AC02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFT News-NFT NewsUITests/Pods-NFT News-NFT NewsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFT News-NFT NewsUITests/Pods-NFT News-NFT NewsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFT News-NFT NewsUITests/Pods-NFT News-NFT NewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651E4C0ED2589758C078537B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NFT News-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2346401138BD7F9238B326F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFT News/Pods-NFT News-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFT News/Pods-NFT News-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFT News/Pods-NFT News-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B38397C2435AC2B539A84518 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NFT News-NFT NewsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		578C97792614049900B4743C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5728C3742616512700BD135D /* NetworkManager.swift in Sources */,
 				578C97852614049900B4743C /* ViewController.swift in Sources */,
 				578C97812614049900B4743C /* AppDelegate.swift in Sources */,
+				5728C3792616514200BD135D /* News.swift in Sources */,
 				578C97832614049900B4743C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +597,7 @@
 		};
 		578C97A82614049A00B4743C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8E4CF97D5D11668D5AC77A /* Pods-NFT News.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +611,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "N-A.NFT-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		578C97A92614049A00B4743C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C878F25AF5DD743438A5EC99 /* Pods-NFT News.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +631,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "N-A.NFT-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		578C97AB2614049A00B4743C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E41B9F2303C87822DBF92B /* Pods-NFT NewsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +660,7 @@
 		};
 		578C97AC2614049A00B4743C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0CB921888592B0CBE2D44F /* Pods-NFT NewsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +683,7 @@
 		};
 		578C97AE2614049A00B4743C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4D366E71C2A9C94778F719 /* Pods-NFT News-NFT NewsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +704,7 @@
 		};
 		578C97AF2614049A00B4743C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317B1555B813F65F1B22C33D /* Pods-NFT News-NFT NewsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
