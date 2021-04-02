@@ -6,7 +6,6 @@
 //
 
 
-//   let news = try? newJSONDecoder().decode(News.self, from: jsonData)
 
 import Foundation
 
@@ -15,7 +14,7 @@ struct News: Codable {
     var status: String?
     var totalResults: Int?
     var articles: [Article]?
-
+    var article: Article?
     enum CodingKeys: String, CodingKey {
         case status = "status"
         case totalResults = "totalResults"
@@ -31,7 +30,7 @@ struct Article: Codable {
     var articleDescription: String?
     var url: String?
     var urlToImage: String?
-    var publishedAt: Date?
+    var publishedAt: String?
     var content: String?
 
     enum CodingKeys: String, CodingKey {

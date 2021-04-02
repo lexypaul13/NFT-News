@@ -12,12 +12,13 @@
 		5728C3792616514200BD135D /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5728C3782616514200BD135D /* News.swift */; };
 		578C97812614049900B4743C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C97802614049900B4743C /* AppDelegate.swift */; };
 		578C97832614049900B4743C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C97822614049900B4743C /* SceneDelegate.swift */; };
-		578C97852614049900B4743C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C97842614049900B4743C /* ViewController.swift */; };
 		578C97882614049900B4743C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578C97862614049900B4743C /* Main.storyboard */; };
 		578C978A2614049900B4743C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578C97892614049900B4743C /* Assets.xcassets */; };
 		578C978D2614049900B4743C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578C978B2614049900B4743C /* LaunchScreen.storyboard */; };
 		578C97982614049A00B4743C /* NFT_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C97972614049A00B4743C /* NFT_NewsTests.swift */; };
 		578C97A32614049A00B4743C /* NFT_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C97A22614049A00B4743C /* NFT_NewsUITests.swift */; };
+		57E8630926169F25006C99A9 /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8630826169F25006C99A9 /* NewsVC.swift */; };
+		57E863152616B440006C99A9 /* NewsGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E863142616B440006C99A9 /* NewsGridCell.swift */; };
 		A6A2576DF17E97E492037C2D /* Pods_NFT_News.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AFCC05DEBB38EA62690064 /* Pods_NFT_News.framework */; };
 		B507A758D1A678DE63B9E28E /* Pods_NFT_News_NFT_NewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392EFACB3C96E368AD360D2 /* Pods_NFT_News_NFT_NewsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -47,7 +48,6 @@
 		578C977D2614049900B4743C /* NFT News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFT News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		578C97802614049900B4743C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578C97822614049900B4743C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		578C97842614049900B4743C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		578C97872614049900B4743C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		578C97892614049900B4743C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578C978C2614049900B4743C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +58,8 @@
 		578C979E2614049A00B4743C /* NFT NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NFT NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		578C97A22614049A00B4743C /* NFT_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFT_NewsUITests.swift; sourceTree = "<group>"; };
 		578C97A42614049A00B4743C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E8630826169F25006C99A9 /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
+		57E863142616B440006C99A9 /* NewsGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsGridCell.swift; sourceTree = "<group>"; };
 		7E4D366E71C2A9C94778F719 /* Pods-NFT News-NFT NewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT News-NFT NewsUITests.debug.xcconfig"; path = "Target Support Files/Pods-NFT News-NFT NewsUITests/Pods-NFT News-NFT NewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8392EFACB3C96E368AD360D2 /* Pods_NFT_News_NFT_NewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFT_News_NFT_NewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8E4CF97D5D11668D5AC77A /* Pods-NFT News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT News.debug.xcconfig"; path = "Target Support Files/Pods-NFT News/Pods-NFT News.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,9 +133,10 @@
 			children = (
 				578C97802614049900B4743C /* AppDelegate.swift */,
 				578C97822614049900B4743C /* SceneDelegate.swift */,
-				578C97842614049900B4743C /* ViewController.swift */,
 				5728C37D2616569100BD135D /* Networking Layer */,
 				578C97862614049900B4743C /* Main.storyboard */,
+				57E8630826169F25006C99A9 /* NewsVC.swift */,
+				57E863142616B440006C99A9 /* NewsGridCell.swift */,
 				578C97892614049900B4743C /* Assets.xcassets */,
 				578C978B2614049900B4743C /* LaunchScreen.storyboard */,
 				578C978E2614049900B4743C /* Info.plist */,
@@ -421,10 +424,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5728C3742616512700BD135D /* NetworkManager.swift in Sources */,
-				578C97852614049900B4743C /* ViewController.swift in Sources */,
 				578C97812614049900B4743C /* AppDelegate.swift in Sources */,
 				5728C3792616514200BD135D /* News.swift in Sources */,
 				578C97832614049900B4743C /* SceneDelegate.swift in Sources */,
+				57E863152616B440006C99A9 /* NewsGridCell.swift in Sources */,
+				57E8630926169F25006C99A9 /* NewsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
