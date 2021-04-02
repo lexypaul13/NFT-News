@@ -1,0 +1,6 @@
+framework module Pods_NFT_News {
+  umbrella header "Pods-NFT News-umbrella.h"
+
+  export *
+  module * { export * }
+}

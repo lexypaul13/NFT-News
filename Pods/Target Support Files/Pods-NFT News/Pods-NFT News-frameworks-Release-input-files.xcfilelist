@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-NFT News/Pods-NFT News-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework
+${BUILT_PRODUCTS_DIR}/Parse/Parse.framework

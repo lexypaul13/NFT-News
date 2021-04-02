@@ -16,13 +16,12 @@ class NewsVC: UIViewController {
         super.viewDidLoad()
         configureCollection()
         NetworkManger.shared.getArticles()
-        NotificationCenter.default.addObserver(self, selector: #selector(refreshcollectionView), name: Notification.Name("didFinishParsing"), object: nil)
     }
     
     func configureCollection(){
         collectionView.delegate = self
         collectionView.dataSource = self
-        
+        NotificationCenter.default.addObserver(self, selector: #selector(refreshcollectionView), name: Notification.Name("didFinishParsing"), object: nil)
 
     }
 
